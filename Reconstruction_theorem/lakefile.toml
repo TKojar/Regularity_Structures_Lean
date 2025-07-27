@@ -1,0 +1,10 @@
+name = "Reconstruction_theorem"
+version = "0.1.0"
+defaultTargets = ["reconstruction_theorem"]
+
+[[lean_lib]]
+name = "ReconstructionTheorem"
+
+[[lean_exe]]
+name = "reconstruction_theorem"
+root = "Main"
