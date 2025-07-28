@@ -1,0 +1,19 @@
+name = "Regularity_Structures_Lean"
+version = "0.1.0"
+defaultTargets = ["regularity_structures_lean"]
+
+[[lean_lib]]
+name = "RegularityStructuresLean"
+
+[[lean_exe]]
+name = "regularity_structures_lean"
+root = "Main"
+
+[[require]]
+name = "checkdecls"
+git = "https://github.com/PatrickMassot/checkdecls.git"
+
+[[require]]
+name = "«doc-gen4»"
+git = "https://github.com/leanprover/doc-gen4"
+rev = "main"
